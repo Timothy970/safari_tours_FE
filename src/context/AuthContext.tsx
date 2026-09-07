@@ -53,8 +53,6 @@ export const AuthProvider: React.FC<{ children: React.ReactNode }> = ({ children
         window.location.href = redirectUrl;
       } else if (isProtected) {
         window.location.href = `/auth/login?redirect=${encodeURIComponent(currentPath)}`;
-      } else {
-        window.location.href = '/';
       }
     }
   }, []);

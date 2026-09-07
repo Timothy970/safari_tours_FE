@@ -51,6 +51,7 @@ export interface Trip {
   country: string;
   tagline: string;
   overview: string;
+  category?: string;
   total_days: number;
   total_nights: number;
   difficulty: 'easy' | 'moderate' | 'challenging';

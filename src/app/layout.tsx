@@ -27,6 +27,13 @@ export const metadata: Metadata = {
     'M-Pesa Safari Booking',
   ],
   authors: [{ name: 'Kibali Africa Tours' }],
+  icons: {
+    icon: [
+      { url: '/images/logo.png', type: 'image/png' },
+    ],
+    shortcut: '/images/logo.png',
+    apple: '/images/logo.png',
+  },
 };
 
 export default function RootLayout({

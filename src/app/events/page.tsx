@@ -112,7 +112,7 @@ function EventsCatalogContent() {
   };
 
   return (
-    <div className="min-h-screen bg-[#FCFBF9] text-[#0F172A] py-10 md:py-16">
+    <div className="min-h-screen bg-[#FCFBF9] text-[#0F172A] pt-28 sm:pt-32 md:pt-36 pb-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Header */}
         <div className="mb-10 text-center sm:text-left">

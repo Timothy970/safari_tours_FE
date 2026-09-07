@@ -85,7 +85,7 @@ function LoginFormContent() {
   };
 
   return (
-    <div className="min-h-[85vh] flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8 bg-[#FCFBF9]">
+    <div className="min-h-[85vh] flex items-center justify-center pt-28 sm:pt-32 pb-16 px-4 sm:px-6 lg:px-8 bg-[#FCFBF9]">
       <div className="max-w-md w-full bg-white rounded-3xl p-8 border border-slate-200 shadow-2xl space-y-6">
         {/* Header */}
         <div className="text-center">

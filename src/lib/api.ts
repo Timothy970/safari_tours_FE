@@ -21,7 +21,6 @@ class ApiService {
     this.refreshPromise = (async () => {
       const refreshToken = this.getRefreshToken();
       if (!refreshToken) {
-        this.clearAuth();
         return null;
       }
 
